@@ -38,6 +38,7 @@ body {
 /* Navigation/Header */
 .header {
 	background-image: url(../assets/images/header.jpg);
+	background-size: contain;
 	background-attachment: fixed;
   	background-position: center;
 	background-repeat: no-repeat;
@@ -245,8 +246,8 @@ footer .footer_column p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
+	background-color: #f4f4f3;
+	color: #75736e;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
