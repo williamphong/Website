@@ -84,12 +84,11 @@ ul li:hover a {
 .tagline {
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: 4px;
+	margin-top: 2%;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
 
 /* About Section */
 .text_column {
