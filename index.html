@@ -21,25 +21,26 @@
 <body>
 <!-- Main Container -->
 <div class="container"> 
-  <!-- Navigation -->
-	<!-- Header -->
-	<div class="header" id="topHeader">
+  <!-- Navigation/Header -->
+  <div class="header" >
+	  <div class="navbar">
 		 <header>
     			<h4 class="logo">LIGHT</h4>
     		<nav>
       		<ul>
-       	 		<li><a href="#hero">HOME</a></li>
+       	 		<li><a href="#her">HOME</a></li>
         		<li><a href="#about">ABOUT</a></li>
         		<li> <a href="#contact">CONTACT</a></li>
       		</ul>
     		</nav>
-  	</header>
+  		</header>
 	</div>
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
+	  
     <h2 class="hero_header">William <span class="light">Phong</span></h2>
     <p class="tagline">something something photography</p>
-  </section>
+	  
+  </div>
+	
   <!-- About Section -->
   <section class="about" id="about">
     <h2 class="hidden">About</h2>
@@ -89,20 +90,6 @@
     </article>
   </footer>
 	
-	<script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("topHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 	
   <!-- Footer Section -->
   <section class="footer_banner" id="contact">
