@@ -20,7 +20,7 @@ body {
 }
 /* Navigation */
 .header{
-	background-color: rgba(12, 9, 10, 0.6);
+	background-color: rgba(12, 9, 10, 0.2);
 }
 header {
 	width: 100%;
@@ -73,6 +73,16 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 /* Hero Section */
 .hero {
