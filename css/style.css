@@ -155,7 +155,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../assets/images/pit.jpg);
+	background-image: url("../assets/images/info.JPG");
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;

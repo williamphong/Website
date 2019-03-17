@@ -37,7 +37,7 @@ body {
 
 /* Navigation/Header */
 .header {
-	background-image: url(../assets/images/header.jpg);
+	background-image: url(../assets/images/contact.jpg);
 	background-size: cover;
 	background-attachment: fixed;
   	background-position: center;
@@ -75,9 +75,11 @@ nav ul li {
 ul li a {
 	color: #FFFFFF;
 	text-decoration: none;
+	padding-bottom: 4px;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	font-color: #2C9AB7;
+	border-bottom: thin solid #FFFFFF;
 }
 .title{
 	padding-top: 9%;
@@ -95,41 +97,18 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+.current_page{
+	border-bottom: thin solid 2px #FFFFFF;
+}
+
+/* Contact Form */
+.contact{
+	height: 100vh;
+	background-color: white;
+}
+
 
 /* More info */
-footer {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
-}
-.footer_column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
-}
-footer .footer_column h3 {
-	color: #B3B3B3;
-	text-align: center;
-}
-footer .footer_column p {
-	color: #717070;
-	background-color: #FFFFFF;
-}
-.cards {
-	width: 100%;
-	height: auto;
-	max-width: 400px;
-	max-height: 200px;
-}
-footer .footer_column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
-}
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -221,10 +200,7 @@ nav ul li {
 .thumbnail {
 	width: 100%;
 }
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
+
 .parallax {
 	text-align: center;
 	margin-top: 0px;
