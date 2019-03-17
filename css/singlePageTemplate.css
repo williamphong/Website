@@ -41,7 +41,7 @@ nav {
 	float: center;
 	width: 100%;
 	height: 90%;
-	text-align: justify;
+	text-align: center;
 }
 header nav ul {
 	list-style: none;
@@ -72,10 +72,6 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
-}
-.light {
-	font-weight: bold;
-	color: #717070;
 }
 .tagline {
 	text-align: center;
