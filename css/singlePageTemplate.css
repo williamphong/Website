@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/* Font */
+@font-face {
+	font-family: "Kammerlander";
+   	src: url(../assets/fonts/Kammerlander.ttf) format("truetype");
+}
+
 /* Body */
 body {
 	font-family: source-sans-pro;
@@ -48,7 +54,7 @@ header nav ul {
 nav ul li {
 	display: inline;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: center;
 	margin-left:25px;
 	margin-right: 25px;
@@ -63,8 +69,11 @@ ul li a {
 ul li:hover a {
 	color: #2C9AB7;
 }
-.hero_header {
-	color: #FFFFFF;
+.header_title {
+	font-family:"Kammerlander";
+	font-size:65px;
+	font-weight: normal;
+	color: rgba(255,255,255,.8);
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
