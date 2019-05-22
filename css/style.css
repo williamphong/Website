@@ -48,7 +48,7 @@ body {
 	/* Navigation Bar */
 .navbar{
 	height:60%;
-	padding:2%;	
+	padding:2%;
 }
 header {
 	width: 100%;
@@ -135,7 +135,7 @@ ul li:hover a {
 	font-weight: lighter;
 	font-size: 18px;
 	transition: 0.6s ease;
-	border:1px solid white;    
+	border:1px solid white;
 	border-color: white;
 	border-radius: 50%;
 	user-select: none;
@@ -185,12 +185,12 @@ ul li:hover a {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .6} 
+  from {opacity: .6}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .6} 
+  from {opacity: .6}
   to {opacity: 1}
 }
 
