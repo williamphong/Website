@@ -37,7 +37,7 @@ body {
 
 /* Navigation/Header */
 .header {
-	background-image: url(../assets/images/info.jpg);
+	background-image: url("../assets/images/info.JPG");
 	background-size: cover;
 	background-attachment: fixed;
   	background-position: center;
